@@ -59,6 +59,13 @@ const questions = [
   }
 ];
 
+function writeReadMe (filename, data) {
+  fs.writeFile(filename, data, function(error) {
+    if (error) return console.log(error);
+    console.log(`${filename} has been created!`);
+  })
+}
+
 const promptUser = () => {
   return inquirer.prompt(questions)
 }
