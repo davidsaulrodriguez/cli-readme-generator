@@ -1,0 +1,29 @@
+{
+  "name": "cli-readme-generator",
+  "version": "0.0.0",
+  "description": "A nodejs-based cli readme generator.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidsaulrodriguez/cli-readme-generator.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "cli",
+    "readme",
+    "generator",
+    "JavaScript"
+  ],
+  "author": "David Rodriguez",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/davidsaulrodriguez/cli-readme-generator/issues"
+  },
+  "homepage": "https://github.com/davidsaulrodriguez/cli-readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
