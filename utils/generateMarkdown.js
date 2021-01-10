@@ -1,6 +1,16 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderBadges(license) {}
+function renderBadges(username, repoName) {
+  return (`<span align="center">
+
+![](https://img.shields.io/github/issues/${username}/${repoName})
+![](https://img.shields.io/github/forks/${username}/${repoName})
+![](https://img.shields.io/github/stars/${username}/${repoName})
+![](https://img.shields.io/github/license/${username}/${repoName})
+
+</span>
+  `)
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
