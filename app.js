@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown')
 
 const questions = [
   {
@@ -71,7 +72,15 @@ const promptUser = () => {
 }
 
 const init = async () => {
-  // Awesome things are going to happen in here. 
+  try {
+    const answers = await promptUser()
+    .then(function (response) {
+      const data = generateMarkdown(response)
+      writeReadMe("README.md", data)
+    })
+  } catch (error) {
+    console.log(error);
+  } 
 }
 
 init();
