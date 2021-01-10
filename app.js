@@ -6,7 +6,7 @@ const questions = [
   {
     type: 'input',
     name: 'username',
-    message: 'GitHub username'
+    message: 'GitHub username:'
   },
   {
     type: 'input',
@@ -20,37 +20,37 @@ const questions = [
   {
     type: 'input',
     name: 'repoName',
-    message: 'GitHub repo name?'
+    message: 'Repository name:'
   },
   {
     type: 'input',
     name: 'title',
-    message: 'Project name?'
+    message: 'Project name:'
   },
   {
-    type: 'input',
+    type: 'editor',
     name: 'description',
-    message: "Project description"
+    message: "Project description:"
   },
   {
-    type: 'input',
+    type: 'editor',
     name: 'installation',
-    message: 'Installation instructions'
+    message: 'Installation instructions:'
   },
   {
-    type: "input",
+    type: "editor",
     name: 'usage',
-    message: 'Usage commands / instructions'
+    message: 'Usage commands / instructions:'
   },
   {
-    type: 'input',
+    type: 'editor',
     name: 'tests',
-    message: 'Test commands / instructions'
+    message: 'Test commands / instructions:'
   },
   {
-    type: 'input',
+    type: 'editor',
     name: 'contributions',
-    message: 'Contribution instructions'
+    message: 'Contribution instructions:'
   },
   {
     type: 'list',
