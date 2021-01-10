@@ -2,10 +2,10 @@
 
 <span align="center">
 
-![](https://img.shields.io/github/issues/davidsaulrodriguez/cli-readme-generator)
-![](https://img.shields.io/github/forks/davidsaulrodriguez/cli-readme-generator)
-![](https://img.shields.io/github/stars/davidsaulrodriguez/cli-readme-generator)
-![](https://img.shields.io/github/license/davidsaulrodriguez/cli-readme-generator)
+![The Issues Badge](https://img.shields.io/github/issues/davidsaulrodriguez/cli-readme-generator)
+![The Forks Badge](https://img.shields.io/github/forks/davidsaulrodriguez/cli-readme-generator)
+![The Stars Badge](https://img.shields.io/github/stars/davidsaulrodriguez/cli-readme-generator)
+![The License Badge](https://img.shields.io/github/license/davidsaulrodriguez/cli-readme-generator)
 
 </span>
   
@@ -45,11 +45,13 @@ It will generate a README with a TOC (Table of Contents) that has links to the f
 The License section is _dynamic_. When you select one of the available licenses it will give you a link to the full license being used that you can read more about on [ChooseALicense.com][cal]. If you select **null** for the license type, then the License section will not be included in your generated `README.md` file.
 
 
-## Installation
+### Demonstration Video
+
 [![Demo Video of CLI ReadMe Generator](https://img.youtube.com/vi/-hcdb4Qan_U/0.jpg)](https://www.youtube.com/watch?v=-hcdb4Qan_U)
 
 [badges]: https://shield.io
 [cal]: https://chooselicense.com/
+
 
 ## Installation
 
