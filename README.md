@@ -44,6 +44,8 @@ It will generate a README with a TOC (Table of Contents) that has links to the f
   
 The License section is _dynamic_. When you select one of the available licenses it will give you a link to the full license being used that you can read more about on [ChooseALicense.com][cal]. If you select **null** for the license type, then the License section will not be included in your generated `README.md` file.
 
+### Demo Gif
+![Demo gif of Terminal Commands](./screenshots/cli-readme-generator-demo.gif)
 
 ### Demonstration Video
 
