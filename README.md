@@ -47,7 +47,7 @@ The License section is _dynamic_. When you select one of the available licenses 
 
 ### Demonstration Video
 
-[![Demo Video of CLI ReadMe Generator](https://img.youtube.com/vi/-hcdb4Qan_U/0.jpg)](https://www.youtube.com/watch?v=-hcdb4Qan_U)
+[![Demo Video of CLI ReadMe Generator](https://img.youtube.com/vi/HMyqFEMbBvo/0.jpg)](https://www.youtube.com/watch?v=HMyqFEMbBvo)
 
 [badges]: https://shield.io
 [cal]: https://chooselicense.com/
